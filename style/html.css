@@ -1,0 +1,82 @@
+
+.work-sans-uniquifier {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+header{
+    background-image: url(.//images/Hero-bg.png);
+}
+/*--Header section--*/
+.header-div{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+
+.hader_a{
+	text-decoration:none;
+	color:black;
+	border:2px solid green;
+	border-radius:6px;
+	 
+	
+}
+
+/*--Banner-section--*/
+
+.baner-img-div{
+	 padding-top:10px;
+	width:50px;
+	margin:auto; 
+}  
+
+.baner-img{
+	height: 113px;
+    width: 130px;
+}
+
+.banner-text{
+	width:40%;
+	margin:auto;
+	text-align:center;
+	
+}
+.banner-tex-div h2{
+	padding-top:5px;
+	padding-bottom:10px;
+	
+}
+.banner-btn-tag{
+	text-decoration:none;
+	color:black;
+    border: solid black;
+	border-radius:10px;
+	padding:4px 10px;
+	
+}
+.banner-tex-div h3{
+	text-align:center;
+	margin-bottom:20px;
+	
+
+}
+
+/*--card--*/
+.card_section{
+	display:flex;
+	justify-content:space-between;
+	align-items:center; 
+
+}
+ .submit-btn{
+	margin:10px 0px;
+	padding:5px 10px;
+	border:2px solid gray;
+	text-decoration:none;
+	color:black; 
+}
